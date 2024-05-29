@@ -18,7 +18,7 @@ const NavBar = () => {
             <div className="flex justify-between items-center">
                 <div className="flex items-center gap-1 cursor-pointer" onClick={() => router.push('/')}>
                     <Image src='/logo.svg' alt="logo" width='30' height="30" />
-                    <div className="font-bold text-xl">StaySavvy</div>
+                    <div className="font-bold text-xl">Hanze sleep</div>
                 </div>
                 <SearchInput />
                 <div className="flex gap-3 items-center">
